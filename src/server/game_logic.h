@@ -11,7 +11,7 @@ namespace cycles_server {
 // Game Logic
 class Game {
   const Configuration conf;
-  uint max_tail_length = 55;
+  unsigned int max_tail_length = 55;
   Id idCounter = 1;
   int frame = 0;
   bool gameStarted = false;
